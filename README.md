@@ -7,6 +7,8 @@
 - Axios
 - ReactJs
 - Styled-components
+- React-Leaflet
+- React-leaflet-markercluster
 - A lot of coffee :)
 
 ## Instructions
