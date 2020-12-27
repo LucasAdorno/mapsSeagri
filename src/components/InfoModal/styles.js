@@ -16,10 +16,8 @@ export const Container = styled.div`
   }
 
   display: flex;
-  align-items: center;
-  justify-content: center;
 
-  background-color: #0003;
+  background: #e0e0e0;
   z-index: 1001;
 
   transition: all 0.8s;
@@ -27,19 +25,16 @@ export const Container = styled.div`
 
 export const Modal = styled.div`
   width: 100%;
-  height: 100vh;
   padding: 20px;
 
   display: flex;
   flex-direction: column;
 
-  background: #e0e0e0;
   border-radius: 4px;
 `;
 
 export const ContentModal = styled.div`
   width: 100%;
-  height: 100vh;
 
   display: flex;
   flex-direction: column;
@@ -59,4 +54,33 @@ export const ButtonClose = styled.button`
   color: #333;
 
   cursor: pointer;
+`;
+
+export const RelatedCities = styled.div`
+  width: 100%;
+  margin-top: 32px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  color: #333;
+`;
+
+export const ChangeTractor = styled.div`
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  button {
+    background: none;
+    outline: none;
+    border: none;
+
+    font-size: 16px;
+
+    cursor: pointer;
+  }
 `;
