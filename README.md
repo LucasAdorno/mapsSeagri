@@ -2,6 +2,11 @@
 
 ### Link: https://mapsseagri.vercel.app
 
+<div align="center">
+  <img src="screenshots/map.jpeg" width="800">
+  <img src="screenshots/modal.jpeg" width="800">
+</div>
+
 ## Built with:
 
 - Axios
